@@ -1,6 +1,6 @@
 package org.gestao_reserva;
 
-import screens.TelaInicial;
+import org.gestao_reserva.screens.TelaInicial;
 
 public class Main {
     public static void main(String[] args) {

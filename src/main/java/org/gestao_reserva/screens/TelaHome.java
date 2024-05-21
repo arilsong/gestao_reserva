@@ -68,14 +68,6 @@ public class TelaHome {
 
                         TelaGestaoReserva telaGestaoReserva = new TelaGestaoReserva();
                         telaGestaoReserva.telaGestaReserva();
-//                        System.out.print("Pressione qualquer tecla para voltar...");
-//
-//                        try {
-//                            System.in.read();
-//                            telaHome();
-//                        } catch (IOException e) {
-//                            e.printStackTrace();
-//                        }
                         break;
                     case 4:
                         System.out.println("-------------------------------------------------------------------------");

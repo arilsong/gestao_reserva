@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-public class QuartoService {
+public class HotelService {
     QuartoDAO quartoDAO = new QuartoDAO();
 
     public void adicionarQuarto(int numero,String tipo,int quantidadeLeitos,double precoBase,String tamanho){

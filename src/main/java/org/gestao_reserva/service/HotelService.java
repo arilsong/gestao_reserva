@@ -1,9 +1,9 @@
 package org.gestao_reserva.service;
 
-import org.gestao_reserva.Auth.AuthManager;
-import org.gestao_reserva.dao.QuartoDAO;
-import org.gestao_reserva.entity.Quarto;
+import org.gestao_reserva.dao.HotelDAO;
+import org.gestao_reserva.entity.Hotel;
 
+<<<<<<< HEAD
 import java.util.List;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -87,24 +87,20 @@ public class HotelService {
         Quarto quarto =  quartoDAO.umQuarto(numeroQuarto);
         return quarto;
     }
+=======
+public class HotelService {
+    public void infoHotel(){
+        HotelDAO hotelDAO = new HotelDAO();
+        Hotel hotel = hotelDAO.infoHotel();
+>>>>>>> 831066d6e9350366394100594a715bda15bbc6c3
 
 
-    public void atualizarQuarto(int numero,String tipo,int quantidadeLeitos,double precoBase,String tamanho){
-        Quarto quarto = new Quarto();
-
-        quarto.setNumero(numero);
-        quarto.setTipo(tipo);
-        quarto.setQuantidadeLeitos(quantidadeLeitos);
-        quarto.setPrecoBase(precoBase);
-        quarto.setTamanho(tamanho);
-        quartoDAO.actualizarQuarto(quarto);
-    }
-
-    public void removerquarto(int numeroQuarto){
-        quartoDAO.removerQuarto(numeroQuarto);
-    }
-
-    public void actualizarEstadoQuarto(boolean estado, int id){
-        quartoDAO.actualizarEstadoQuarto(estado, id);
+        System.out.println(
+                hotel.getNome()+"\n" +
+                hotel.getContato()+"\n" +
+                hotel.getLocalizacao()+"\n" +
+                hotel.getDescricao()+"\n" +
+                hotel.getClassificacao()
+        );
     }
 }

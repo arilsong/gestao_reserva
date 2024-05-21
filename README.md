@@ -13,9 +13,11 @@ Reserva de Quartos: Clientes podem buscar, selecionar e reservar acomodações c
 Clientes podem modificar ou cancelar suas reservas existentes.
 ### Autenticação de Utilizadores
 Login e Registro: Sistema de autenticação para diferenciar clientes e funcionários.
-### Permissões: Controle de acesso baseado no tipo de usuário (cliente ou funcionário).
+### Permissões: 
+Controle de acesso baseado no tipo de usuário (cliente ou funcionário).
 Funcionalidades para Funcionários
-### Gestão de Reservas: Ferramentas para funcionários gerenciarem reservas, incluindo confirmação e cancelamento.
+### Gestão de Reservas: 
+Ferramentas para funcionários gerenciarem reservas, incluindo confirmação e cancelamento.
 
 ### Operações de Consulta
 Busca Personalizada: Clientes e funcionários podem realizar buscas por data, localização e tipo de acomodação.

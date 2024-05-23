@@ -29,7 +29,7 @@ public class TelaAreaFunc {
                 case 1:
                     ReservaService reservaService = new ReservaService();
                     reservaService.listaReservas();
-                    telaAreaFunc();
+                    TelaAreaFunc.telaAreaFunc();
                     break;
                 case 2:
                     TelaAcomodacao.telaAcomodacao();

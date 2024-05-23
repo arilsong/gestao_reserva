@@ -70,7 +70,7 @@ public class FuncionarioDAO {
     public Funcionario umFuncionario(String email){
         Connection con = Connect.getConnection();
         Funcionario funcionario = null;
-        String sql = "SELECT * FROM FUNCIONARIOS WHERE email = ?";
+        String sql = "SELECT * FROM FUNCIONARIOS WHERE nome_usuario = ?";
         try(PreparedStatement smt = con.prepareStatement(sql)){
             smt.setString(1, email);
             ResultSet result = smt.executeQuery();

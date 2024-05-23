@@ -32,7 +32,7 @@ public class ClienteDAO {
             System.out.println("\nCONTA CRIADO COM SUCESSO\n");
         }catch(SQLException e){
             System.out.println("Erro ao criarConta");
-            e.getMessage().toString();
+            System.out.println(e.getMessage().toString());
         }
     }
 

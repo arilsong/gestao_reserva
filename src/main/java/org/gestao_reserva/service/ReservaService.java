@@ -4,6 +4,7 @@ import org.gestao_reserva.dao.ReservaDAO;
 import org.gestao_reserva.entity.Cliente;
 import org.gestao_reserva.entity.Quarto;
 import org.gestao_reserva.entity.Reserva;
+import org.gestao_reserva.screens.TelaAreaFunc;
 import org.gestao_reserva.screens.TelaHome;
 
 import java.util.Date;
@@ -73,7 +74,7 @@ public class ReservaService {
 
         if(lista.isEmpty()){
             System.out.println("nehuma reserva");
-            TelaHome.telaHome();
+            TelaAreaFunc.telaAreaFunc();
         }else{
             int width = 20;
 

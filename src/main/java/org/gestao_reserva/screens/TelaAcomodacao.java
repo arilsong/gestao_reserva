@@ -54,7 +54,7 @@ public class TelaAcomodacao {
 
                     break;
                 case 3:
-
+                    menuEditar();
                     break;
                 case 4:
                     quartoService.listarQuarto();
@@ -69,7 +69,7 @@ public class TelaAcomodacao {
         }while (choice != 0) ;
     }
 
-    public void menuEditar(){
+    public static void menuEditar(){
         Scanner input = new Scanner(System.in);
         QuartoService quartoService = new QuartoService();
 
